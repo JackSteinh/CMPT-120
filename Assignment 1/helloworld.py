@@ -5,6 +5,13 @@
 
 
 def main():
+    print("Hello World!")
+    color = "purple"
+    print("My favorite color is",color)
+    birth = "10 18 2004"
+    print("My Birthday is", birth)
+
+
 
 
 
