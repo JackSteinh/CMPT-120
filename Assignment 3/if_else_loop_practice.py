@@ -11,6 +11,16 @@ else (the number is less than 5)
 '''
 
 def main():
-    
+    num = [0, 42, 30, 25, 16, 4, 50, 29]
+    for x in range(len(num)):
+        print(num[x])
+        if num[x]> 35:
+            print("greater than 35")
+        elif 20 < num[x] and num[x] > 35:
+            print("between 20-35")
+        elif 5 < num[x] and num[x] > 20:
+            print("between 5 and 20")
+        else:
+            print("the number is less than 5")
     
 main()
